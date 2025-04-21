@@ -42,7 +42,7 @@ export class SingleStoreDatabase<
 	};
 
 	// We are waiting for SingleStore support for `json_array` function
-	/**@inrernal */
+	/**@internal */
 	query: unknown;
 
 	constructor(
